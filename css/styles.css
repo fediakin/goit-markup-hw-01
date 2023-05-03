@@ -1,0 +1,59 @@
+:root {
+   --main-font-family: 'Roboto',
+    sans-serif;
+   --secondary-font-family: 'Raleway',
+    sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link { 
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+body {
+    font-family: var(--main-font-family);
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5px;
+    
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    
+    /* NAVY BLUE */
+    color: #2E2F42;
+}
+
+.mail {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    
+    /* SLATE */
+    color: #434455
+}
+
+.tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    
+    /* SLATE */
+    color: #434455;
+}
