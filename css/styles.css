@@ -20,6 +20,7 @@ button {
 
 body {
     font-family: var(--main-font-family);
+    font-family: var(--secondary-font-family);
 }
 
 .menu-link {
@@ -56,4 +57,148 @@ body {
     
     /* SLATE */
     color: #434455;
+}
+
+.title-basic {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.11;
+    
+        /* or 107% */
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        /* WHITE */
+        /* color: #FFFFFF; */
+}
+
+.hero-header {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    
+        /* identical to box height, or 120% */
+        letter-spacing: 0.02em;
+    
+        /* NAVY BLUE */
+        color: #2E2F42;
+}
+
+.hero-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+    
+        /* or 150% */
+        letter-spacing: 0.02em;
+    
+        /* SLATE */
+        color: #434455;
+}
+
+.title-gallery {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+    
+        /* identical to box height, or 111% */
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    
+        /* NAVY BLUE */
+        color: #2E2F42;
+}
+
+.title-team {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+    
+        /* identical to box height, or 111% */
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        /* NAVY BLUE */
+        color: #2E2F42;
+}
+
+.team-worker {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    
+        /* identical to box height, or 120% */
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        /* NAVY BLUE */
+        color: #2E2F42;
+}
+
+.team-profession {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+    
+        /* identical to box height, or 150% */
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        /* SLATE */
+        color: #434455;
+}
+
+.buttons-section-one {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+    
+        /* identical to box height, or 150% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+    
+        /* WHITE */
+        color: #FFFFFF;
+}
+
+.buttons-section {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+    
+        /* identical to box height, or 150% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+    
+        /* IRIS */
+        color: #4D5AE5;
+}
+
+.portfolio-text {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    
+        /* identical to box height, or 120% */
+        letter-spacing: 0.02em;
+    
+        /* NAVY BLUE */
+        color: #2E2F42;
+}
+
+.portfolio-p {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+    
+        /* identical to box height, or 150% */
+        letter-spacing: 0.02em;
+    
+        /* SLATE */
+        color: #434455;
 }
