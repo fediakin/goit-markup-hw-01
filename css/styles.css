@@ -26,7 +26,7 @@ body {
         background: #ffffff;    
 }
 
-.logo {
+.web-logo {
         font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
@@ -48,7 +48,7 @@ body {
 .menu-link {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     
     /* identical to box height, or 150% */
     letter-spacing: 0.02em;
@@ -58,6 +58,7 @@ body {
 }
 
 .mail {
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -172,23 +173,12 @@ body {
         color: #434455;
 }
 
-.buttons-section-one {
-        font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-    
-        /* identical to box height, or 150% */
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.04em;
-    
-        /* WHITE */
-        color: #FFFFFF;
+.buttons-section{
+        background: #f4f4fd;
 }
 
 .buttons-section {
+        font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -201,6 +191,11 @@ body {
     
         /* IRIS */
         color: #4D5AE5;
+}
+
+.buttons-main:hover,
+.buttons-main:focus {
+        background: var(--hf-buttons-color);
 }
 
 .portfolio-text {
@@ -251,7 +246,7 @@ body {
 }
 
 .team {
-    background: #f4f4fd;    
+    background: var(--our-team-background);
 }
 .main-footer {
         background-color: var(--tags-color);
@@ -272,4 +267,21 @@ body {
         
                 /* IRIS */
                 color: #4D5AE5;
+}
+
+.web-logo {
+        color: var(--tags-color);
+}
+
+.web-logo-style {
+        color: var(--our-team-background);
+}
+
+.header-address {
+        font-style: normal;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+        color: var(--hf-buttons-color);
 }
