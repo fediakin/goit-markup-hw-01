@@ -1,5 +1,9 @@
 :root {
    --p-text: #434455;
+   --tags-color: #2e2f42; 
+--buttons-color: #4d5ae5;
+--hf-buttons-color: #404bbf;
+
 }
 
 .list {
@@ -79,14 +83,13 @@ body {
 .title-basic {
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.11;
+        line-height: 1.07;
     
         /* or 107% */
         text-align: center;
         letter-spacing: 0.02em;
     
-        /* WHITE */
-        /* color: #FFFFFF; */
+         color: #FFFFFF; 
 }
 
 .hero-header {
@@ -221,3 +224,22 @@ body {
         color: #434455;
 }
 
+.hero-section {
+        background-color: var(--tags-color);
+}
+
+.modal-open-btn {
+        background: var(--buttons-color);
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.04em;
+        
+                /* WHITE */
+                color: #FFFFFF;
+}
+
+.modal-open-btn:hover,
+.modal-open-btn {
+        background: var(--hf-buttons-color);
+}
