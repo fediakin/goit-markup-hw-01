@@ -1,8 +1,5 @@
 :root {
-   --main-font-family: 'Roboto',
-    sans-serif;
-   --secondary-font-family: 'Raleway',
-    sans-serif;
+   --p-text: #434455;
 }
 
 .list {
@@ -19,8 +16,9 @@ button {
 }
 
 body {
-    font-family: var(--main-font-family);
-    font-family: var(--secondary-font-family);
+        font-family: 'Roboto', sans-serif;
+        color: var(--p-text);
+        background: #ffffff;    
 }
 
 .menu-link {
