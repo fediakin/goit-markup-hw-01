@@ -1,8 +1,9 @@
 :root {
    --p-text: #434455;
    --tags-color: #2e2f42; 
---buttons-color: #4d5ae5;
---hf-buttons-color: #404bbf;
+   --buttons-color: #4d5ae5;
+   --hf-buttons-color: #404bbf;
+--our-team-background: #f4f4fd;
 
 }
 
@@ -134,6 +135,8 @@ body {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
+        text-transform: capitalize;
+        background-color: #FFFFFF;
     
         /* identical to box height, or 111% */
         text-align: center;
@@ -229,17 +232,24 @@ body {
 }
 
 .modal-open-btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
         background: var(--buttons-color);
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: 0.04em;
         
-                /* WHITE */
-                color: #FFFFFF;
+        /* WHITE */
+        color: #FFFFFF;
 }
 
 .modal-open-btn:hover,
 .modal-open-btn {
         background: var(--hf-buttons-color);
+}
+.title {
+        background-color: var(--tags-color);
+}
+
+.team {
+    background: #f4f4fd;    
 }
