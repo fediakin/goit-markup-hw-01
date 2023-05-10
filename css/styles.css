@@ -22,11 +22,11 @@ body {
 }
 
 .logo {
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
 
         /* identical to box height, or 117% */
         display: flex;
