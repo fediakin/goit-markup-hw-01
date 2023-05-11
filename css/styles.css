@@ -302,3 +302,8 @@ font-family: 'Raleway', sans-serif;
 .menu-link:focus {
         color: var(--hf-buttons-color);
 }
+
+.portfolio {
+        font-weight: 500;
+        
+}
